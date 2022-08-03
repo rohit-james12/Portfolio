@@ -13,7 +13,7 @@ const Home = () => {
                 Building responsive websites and implementing complex web applications.
             </p>
             <div>
-                <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-emerald-600 hover:border-emerald-600'>View Work 
+                <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-emerald-600 hover:border-emerald-600'>View Projects 
                     <span className='group-hover:rotate-90 duration-300'>
                         <HiArrowNarrowRight className='ml-3' />
                     </span>
