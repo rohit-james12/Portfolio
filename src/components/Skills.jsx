@@ -1,5 +1,5 @@
 import React from "react";
-import skilldb from "../data/skillsdb.json";
+import { skills } from "../data/skillsdb";
 
 const Skills = () => {
   // const skillstyle = `w-12 h-12 mx-auto`;
@@ -16,7 +16,7 @@ const Skills = () => {
           </p>
         </div>
         <div className="w-full grid grid-cols-4 gap-4 justify-center py-2">
-          {skilldb.map((skill) => (
+          {skills.map((skill) => (
             <div
               key={skill.name}
               className="w-12 bg-none shadow-sm shadow-[#040c16] hover:scale-110 duration-400"

@@ -1,4 +1,4 @@
-[
+export const skills = [
     {
         "name": "html",
         "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
@@ -17,7 +17,6 @@
     },
     {
         "name": "python",
-        "style": "",
         "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" 
     },
     {
@@ -28,10 +27,6 @@
         "name": "github",
         "style": "invert",
         "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-    },
-    {
-        "name": "materialui",
-        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"
     },
     {
         "name": "tailwindcss",
@@ -53,6 +48,11 @@
     {
         "name": "redux",
         "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" 
+    },
+    {
+        "name": "nextjs",
+        "style": "invert",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg"
     },
     {
         "name": "nodejs",
