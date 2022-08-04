@@ -26,7 +26,7 @@ export const projectdb = [
     {
         "name": "Portfolio Website",
         "url": portfolio,
-        "demoLink": "/",
+        "demoLink": "https://62eb78c881bda75b6252ed9e--adorable-conkies-5c2a8b.netlify.app/",
         "codeLink": "https://github.com/rohit-james12/Portfolio"
     },
     {
