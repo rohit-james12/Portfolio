@@ -1,7 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Home = () => {
   return (
