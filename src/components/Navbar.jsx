@@ -11,9 +11,9 @@ const Navbar = () => {
     setToggle(!toogle);
   };
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 z-10">
       <div>
-        <img src={Logo} alt="logo" style={{ width: "50px", color: "green" }} />
+        <img src={Logo} alt="logo" style={{ width: "50px" }} />
       </div>
       {/* Menu */}
       <ul className="hidden md:flex">
@@ -52,7 +52,7 @@ const Navbar = () => {
         className={
           !toogle
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] backdrop-blur-lg flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl text-emerald-500">
@@ -127,7 +127,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-emerald-700">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://drive.google.com/drive/folders/1r7VX7i7AmMSXXzWeBProFk53cYGKp-S8?usp=sharing"
+              href="https://drive.google.com/file/d/1YpBYeAkVnzKzJoF-RXutvIgfYQc8QHQb/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >

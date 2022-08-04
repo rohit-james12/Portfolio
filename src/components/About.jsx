@@ -19,9 +19,9 @@ const About = () => {
           <div className="text-lg">
             <p>
               I am passionate about building user friendly applications that
-              provide a smooth experience for the users. I am always keen about
-              developing my tech stack by trying and building new applications
-              every now and then.
+              provide a smooth experience. I always look forward to taking up
+              new and exciting tasks which helps me develop my technical
+              knowledge.
             </p>
           </div>
         </div>

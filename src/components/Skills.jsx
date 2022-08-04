@@ -2,9 +2,8 @@ import React from "react";
 import { skills } from "../data/skillsdb";
 
 const Skills = () => {
-  // const skillstyle = `w-12 h-12 mx-auto`;
   return (
-    <div name="skills" className="bg-[#0a192f] w-full h-screen">
+    <div name="skills" className="bg-[#0a192f] w-full h-screen z-0">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>

@@ -1,6 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Home = () => {
   return (
@@ -18,7 +19,7 @@ const Home = () => {
           Building responsive websites and implementing complex web
           applications.
         </p>
-        <div>
+        <div className="flex flex-row gap-4">
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-emerald-600 hover:border-emerald-600">
             <Link to="projects" smooth={true} duration={500}>
               View Projects
@@ -26,6 +27,16 @@ const Home = () => {
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3" />
             </span>
+          </button>
+          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-emerald-600 hover:border-emerald-600">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://drive.google.com/file/d/1YpBYeAkVnzKzJoF-RXutvIgfYQc8QHQb/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resume
+            </a>
           </button>
         </div>
       </div>
