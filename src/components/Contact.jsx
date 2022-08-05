@@ -9,7 +9,7 @@ const Contact = () => {
     setName("");
     setEmail("");
     setMessage("");
-  }, [setName, setEmail, setMessage]);
+  }, []);
   return (
     <div
       name="contact"
