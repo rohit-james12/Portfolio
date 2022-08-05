@@ -1,9 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+
+  useEffect(() => {
+    setName("");
+    setEmail("");
+    setMessage("");
+  }, [setName, setEmail, setMessage]);
   return (
     <div
       name="contact"
